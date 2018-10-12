@@ -1,4 +1,6 @@
-spam = ['a', 'b', 'c', 'd', 'f']
+# def eggs(param):
+#     param.append('hello')
 
-for i in range(len(spam)):
-    print('The ' + str(i) + ' element is ' + spam[i])
+# spam = [0, 1, 2, 3, 4]
+# eggs(spam)
+# print(spam)
