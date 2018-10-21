@@ -1,7 +1,9 @@
 INF = 10000000
 
+#自底向上方法
 def cut_1(p,n,r):
     r[0] = 0
+    #x的每次迭代代表求得了一次r[n]值
     for x in range(1,n + 1):
         temp = -INF
         for i in range(1,x + 1):
