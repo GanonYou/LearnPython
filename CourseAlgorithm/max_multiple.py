@@ -38,6 +38,7 @@ for i in range(1,N + 1):
 for i in range(1,N + 1):
     f[i][0] = sum[i]
 
+#f[i][j]代表前 i 个数有 j 个乘号的最大值
 #按行逐步完成 f 矩阵
 for i in range(2,N + 1):
     #当有 i 个数的时候，最多只能存在 i-1 个乘号
