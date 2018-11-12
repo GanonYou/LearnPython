@@ -17,6 +17,9 @@ for item in myResult:
 newContent += madContent[pos:]
 
 print(newContent)
+newFile = open('newMad.txt','w')
+newFile.write(newContent)
+newFile.close()
 
 
         
