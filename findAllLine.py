@@ -3,6 +3,7 @@ import re,os
 path = '/Users/YWY/PythonProgram/LearnPython'
 userRegex = re.compile(r'silly')
 
+#遍历该目录下所有文件
 for root,dir,files in os.walk(path):
     for fileName in files:
         if fileName.find('.txt') != -1:
